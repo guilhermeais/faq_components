@@ -1,8 +1,16 @@
 import { createStore } from "vuex";
+import { faqCategories } from '@/utils/db.json'
 
 export default createStore({
-  state: {},
+  state: {
+    faqCategories: [],
+    questionsCategory: {},
+    answer:{}
+  },
   mutations: {},
-  actions: {},
-  modules: {},
+  actions: {
+    fetchFaqCategories({commit}){
+      const data = faqCategories
+    }
+  },
 });
