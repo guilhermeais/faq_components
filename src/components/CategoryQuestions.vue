@@ -123,7 +123,7 @@ export default {
   color: #f5f6f8;
   font-size: 1rem;
   background-color: transparent;
-  transition: background-color 200ms ease-in-out;
+  
 }
 .questions-item:hover {
   background-color: #3f4452;
