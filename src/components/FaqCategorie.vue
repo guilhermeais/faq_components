@@ -80,15 +80,15 @@ p {
   list-style: none;
 }
 
-.category-item {
+.categories .category-item {
   color: #f5f6f8;
   padding: 1rem 1.875rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 2.125rem;
   background-color: transparent;
-  transition: background-color 200ms ease-in-out;
+  
 }
 .category-item:hover {
   background-color: #3f4452;

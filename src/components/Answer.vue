@@ -37,10 +37,12 @@ export default {
   grid-template-columns: auto 1fr;
   grid-gap: 1rem;
   align-items: center;
+  
 }
 .header-text p {
   color: #f5f6f8;
   font-size: 1rem;
+
 }
 
 .btn-arrow {

@@ -75,7 +75,7 @@ export default {
   width: 1.5rem;
 }
 .btn-arrow {
-  padding: 0.875rem 0.75rem;
+  padding: 0.875rem 0.50rem;
   cursor: pointer;
   background-color: transparent;
   border-radius: 8px;
